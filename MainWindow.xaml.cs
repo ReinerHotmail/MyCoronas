@@ -24,5 +24,10 @@ namespace MyCoronas
         {
             InitializeComponent();
         }
+
+        private void ButtonStart_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

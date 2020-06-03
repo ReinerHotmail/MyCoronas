@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Canvas x:Name="MyCanvas" Grid.Column="1" />
         <StackPanel>
-            <Button Content="Button" />
+            <Button x:Name="ButtonStart" Content="Start" Margin="10,10,10,10" Click="ButtonStart_Click" />
         </StackPanel>
 
     </Grid>
