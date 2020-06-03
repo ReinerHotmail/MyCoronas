@@ -12,6 +12,9 @@
             <ColumnDefinition Width="347*" />
         </Grid.ColumnDefinitions>
         <Canvas x:Name="MyCanvas" Grid.Column="1" />
+        <StackPanel>
+            <Button Content="Button" />
+        </StackPanel>
 
     </Grid>
 </Window>
