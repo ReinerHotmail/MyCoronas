@@ -6,14 +6,16 @@
         xmlns:local="clr-namespace:MyCoronas"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Gray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="53*" />
             <ColumnDefinition Width="347*" />
         </Grid.ColumnDefinitions>
-        <Canvas x:Name="MyCanvas" Grid.Column="1" />
+        <Canvas x:Name="MyCanvas" Grid.Column="1" Margin="20,20,20,20" Background="White" />
         <StackPanel>
             <Button x:Name="ButtonStart" Content="Start" Margin="10,10,10,10" Click="ButtonStart_Click" />
+            <Button x:Name="ButtonStop" Content="Stop" Margin="10,10,10,10" Click="ButtonStop_Click" />
+            <ListBox x:Name="ListBoxInf" Height="100" />
         </StackPanel>
 
     </Grid>
